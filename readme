@@ -1,0 +1,10 @@
+For my C# 3D Unity Game “Gold Theft”. 
+It is an engaging game inspired by the Super Mario franchise and challenges players to deftly control their character's movements using keyboard inputs across various levels. 
+This captivating gameplay demands adept jumping between floors, evasion of treacherous monsters, and the collection of gold coins to advance to subsequent stages. 
+The game's immersive soundtrack features distinct melodies and sound effects, enriching the overall experience.
+Combining addictive gameplay and a rich auditory landscape, Gold Theft delivers a stimulating and gratifying gaming experience that tests users' reflexes and strategic prowess.
+Among the game's core scripts, the "WaypointFollower" script moves a game object along a specified path defined by an array of waypoints while continuously checking the object's distance to set the next target. 
+The "PlayerLife" script handles the player's life and death, detecting the player's position and collisions, calling the "Die" function, and reloading the scene after a short delay when the player dies. 
+The "ItemCollector" script allows the player to collect coins, detecting collisions with game objects tagged as coins and updating the UI text and sound effects when coins are collected. 
+Finally, the "PlayerMovement" script enables the movement and jumping of the game object, detecting player input, and adjusting the object's movement speed and jump height.
+It also enables the player to destroy enemies by jumping on them, providing a satisfying element to the gameplay.
